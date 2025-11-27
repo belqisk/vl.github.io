@@ -9,11 +9,11 @@ import { toast } from 'sonner@2.0.3';
 
 // Mock Data
 const INITIAL_WORDS: Word[] = [
-  { id: 1, en: "ephemeral", cn: "短暂的", difficulty: 4, learned: false, favorite: true },
-  { id: 2, en: "serendipity", cn: "意外发现珍宝的运气", difficulty: 3, learned: false, favorite: false },
-  { id: 3, en: "petrichor", cn: "雨后泥土的清香", difficulty: 5, learned: false, favorite: true },
-  { id: 4, en: "sonder", cn: "意识到路人皆有故事", difficulty: 5, learned: false, favorite: false },
-  { id: 5, en: "vellichor", cn: "旧书店的氛围", difficulty: 4, learned: false, favorite: false },
+  { id: 1, en: "fundamental", cn: "adj. 基本的；根本的 词汇变体：fundamentally (adv.), fundament (n.) 词汇分类：教育 / 科学 ｜ ★★★ 同义替换：essential / basic / core", difficulty: 4, learned: false, favorite: true },
+  { id: 2, en: "access", cn: "n./v. 进入；使用 词汇变体：accessible (adj.), accessibility (n.) 词汇分类：教育 / 科技 ｜ ★★★ 同义替换：entry / approach / availability", difficulty: 3, learned: false, favorite: false },
+  { id: 3, en: "heyday", cn: "n. 全盛期 词汇变体：— 词汇分类：历史 / 经济 ｜ ★★★ 同义替换：peak period / prime / golden age", difficulty: 5, learned: false, favorite: true },
+  { id: 4, en: "leisure", cn: "n. 休闲；闲暇 词汇变体：leisurely (adj./adv.) 词汇分类：生活方式 / 社会 ｜ ★★★ 同义替换：free time / recreation / pastime", difficulty: 5, learned: false, favorite: false },
+  { id: 5, en: "comprise", cn: "v. 包含；由…组成 词汇变体：comprising (adj.), comprised (adj.) 词汇分类：科研 / 数据 ｜ ★★★ 同义替换：consist of / be made up of / include", difficulty: 4, learned: false, favorite: false },
 ];
 
 export const Vocabulary: React.FC = () => {
