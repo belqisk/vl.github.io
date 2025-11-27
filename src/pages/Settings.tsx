@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { chevron-left, Moon, Volume2, Save, Download, Upload, Type, Shuffle } from 'lucide-react';
+import { chevronleft, Moon, Volume2, Save, Download, Upload, Type, Shuffle } from 'lucide-react';
 import { ToggleSwitch } from '../components/ToggleSwitch';
 import { toast } from 'sonner@2.0.3';
 import { motion } from "motion/react";
