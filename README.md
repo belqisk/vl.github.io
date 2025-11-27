@@ -1,7 +1,7 @@
 
   # Vocabulary Learning App
 
-  This is a code bundle for Vocabulary Learning App. The original project is available at https://www.figma.com/design/Kd0AbGVCLwA0NaipzwuYkU/Vocabulary-Learning-App.
+  This is a code bundle for Vocabulary Learning App. 
 
   ## Running the code
 
