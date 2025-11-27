@@ -1,0 +1,39 @@
+
+@import "tailwindcss";
+
+/* Force class-based dark mode only, ignoring system preference */
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-orange-500: #655DFF;
+  --color-orange-600: #A39EFF;
+  --color-yellow-400: #FFD779;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-zinc-900 bg-zinc-50;
+  }
+  
+  /* Smooth scrolling for the whole page */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-400 dark:bg-zinc-600;
+}
